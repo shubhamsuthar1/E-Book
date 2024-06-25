@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(book_img/book4.jpg);
+    background-position: 10px 10px;
+    background-size: 100% 160%;
+    background-position-x: center;
+    
+    /* background-repeat: no-repeat; */
+}
+ 
+.container {
+    max-width: 500px;
+    width: 50%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 5px 3px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.container .title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container .form {
+    width: 100%;
+}
+
+.container .form .input_field {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.container .form .input_field label {
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.container .form .input_field .input {
+    width: 100%;
+    outline: 1px 2px;
+    font-size: 15px;
+    padding: 6px 4px;
+    border-radius: 6px;
+}
+
+.input_field .btn {
+    position: relative;
+    width: 180%;
+    margin-left: 350%;
+    padding: 6px;
+    background-blend-mode: color;
+    background-color:blue;
+    color: white;
+}
+.input_field .btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.container .form .input_field .input:focus {
+    border: 2px solid green;
+    outline: 20px 20px;
+}
+.male .radia-btn{
+
+    position: relative;
+    left:35%;
+    margin-bottom: 20px; 
+}
+.male .radiaf-btn{
+
+    position: relative;
+    left: 60%;
+}
+.country{
+    display: flex;
+    position: relative;
+    left: 20%;
+    font-size: 15px;
+    margin:0px 100px 10px;
+    width:25% ;
+}
+.checkbox{
+
+    margin-bottom: 10px;
+}
+.textarea{
+    resize: none;
+    width: 100%;
+    font-size: larger;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 2px;
+ 
+}
